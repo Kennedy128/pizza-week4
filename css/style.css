@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+
+
+.pizza{
+    background-image: url(../images/pizza.jpeg);
+    height: 500px;
+    background-size: cover;
+    font-size: 40px;
+    color: darkblue;
+    font-family: 'Dancing Script' ;
+
+
+}
+.col-md-3 img{
+
+    margin: 20px;
+    width: 100%;
+}
+h1{
+    font-family: 'Tangerine' ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.col-md-2 img{
+
+    margin: 20px;
+    width: 100%;
+}
+h2{
+    color: darkred;
+}
+.toppings{
+    background-color: gray;
+}
+.crust{
+    background-color: limegreen;
+}
