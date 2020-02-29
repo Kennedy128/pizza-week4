@@ -38,3 +38,49 @@ h2{
 .crust{
     background-color: limegreen;
 }
+.larges{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+.mediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+    
+}
+.smalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+
+
+}
+.extralarges{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+.extrasmalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+.extramediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+.largesmalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+.largemediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+}
+
+
+
