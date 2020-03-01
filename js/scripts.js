@@ -220,11 +220,11 @@ $(document).ready(function(){
       $("button.supply").hide();
       $("#pizzadition").hide();
       let tangible= totalCheckout+150;
-      console.log("You will pay sh. "+tangibleamount+" on delivery");
-      $("#spendingtotal").append("Your bill plus delivery fee is: "+tangibleamount);
+      console.log("You will pay sh. "+tangibleamount+" upon being delivered with the pizza");
+      $("#spendingtotal").append("Your total spending plus delivery fee is: "+tangibleamount);
     });
 
-    // when one clicks place order button
+    
     $("button#lastdelivery").click(function(event){
       event.preventDefault();
 
