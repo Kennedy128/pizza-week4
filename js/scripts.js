@@ -129,10 +129,10 @@ $(document).ready(function(){
     let totalCheckout =0;
     totalCheckout = totalCheckout + total;
 
-    $("#pizza-names").html($(".name option:selected").val());
-    $("#pizza-sizes").html( $("#size option:selected").val());
-    $("#pizza-crusts").html($("#crust option:selected").val());
-    $("#pizza-toppings").html(ptopping.join(", "));
+    $("#pizza-gettingnames").html($(".name option:selected").val());
+    $("#pizza-gettingsizes").html( $("#size option:selected").val());
+    $("#pizza-gettingcrusts").html($("#crust option:selected").val());
+    $("#pizza-gettingtoppings").html(ptopping.join(", "));
     $("#totals").html(total);
     
 
