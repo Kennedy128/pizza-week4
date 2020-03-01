@@ -219,9 +219,9 @@ $(document).ready(function(){
       $("#priceaddition").hide();
       $("button.supply").hide();
       $("#pizzadition").hide();
-      let deliceryamount= totalCheckout+150;
-      console.log("You will pay sh. "+deliceryamount+" on delivery");
-      $("#spendingtotal").append("Your bill plus delivery fee is: "+deliceryamount);
+      let tangible= totalCheckout+150;
+      console.log("You will pay sh. "+tangibleamount+" on delivery");
+      $("#spendingtotal").append("Your bill plus delivery fee is: "+tangibleamount);
     });
 
     // when one clicks place order button
@@ -231,15 +231,15 @@ $(document).ready(function(){
       $("#pizzadition").hide();
       $(".take").hide();
       $("button#lastdelivery").hide();
-      let deliceryamount= totalCheckout+200;
-      console.log("Final amount is: "+deliceryamount);
-      let person = $("input#name").val();
-      let phone = $("input#phone").val();
-      let location = $("input#location").val();
+      let tangibleamount= totalCheckout+200;
+      console.log("Final amount is: "+tangibleamount);
+      let people = $("input#name").val();
+      let cellphone = $("input#phone").val();
+      let place = $("input#location").val();
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#lasttext").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+        $("#lasttext").append(people+", We have recieved your order and it will be delivered to you at "+place+ ". Prepare sh. "+tangibleamount);
         $("#spendingtotal").hide();
         $("#lasttext").slideDown(1200);
       }
