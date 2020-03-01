@@ -116,7 +116,7 @@ $(document).ready(function(){
       $("button.proceed").show();
       $("#information").show();
       $("div.choise").hide();
-      alert("Please select pizza size and crust"); 
+      alert("Please choose pizza size and corresponding crust"); 
     }
     else{
       $("button.proceed").hide();
