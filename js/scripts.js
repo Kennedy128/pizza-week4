@@ -75,15 +75,15 @@ $(document).ready(function () {
         price =0;
       break;
       case "large":
-         price = 1200;
+         price = 1000;
          console.log(price);
        break;
        case "medium":
-         price = 850;
+         price = 800;
          console.log("The cost is "+price);
        break;
        case "small":
-         price = 600;
+         price = 500;
          console.log(price);
        default:
          console.log("incurred an error"); 
@@ -92,15 +92,21 @@ $(document).ready(function () {
         case "0":
           crust_price = 0;
         break;
-        case "Crispy":
-          crust_price = 200;
+        case "thin-crust":
+          crust_price = 700;
         break;
-        case "Stuffed":
-          crust_price = 250;
+        case "thick-crust":
+          crust_price = 600;
         break;
-        case "Gluten-free":
-          crust_price = 180;
+        case "deep-crust":
+          crust_price = 500;
         break;
+        case "stuffed-crust":
+          crust_price = 400;
+          break;
+          case "cheese-filled-crust":
+          crust_price = 300;
+          break;
         default:
           console.log("No cost indicated"); 
       }
@@ -146,15 +152,15 @@ $(document).ready(function () {
             price =0;
           break;
           case "large":
-             price = 1200;
+             price = 1000;
              console.log(price);
            break;
            case "medium":
-             price = 850;
+             price = 800;
              console.log("The price is "+price);
            break;
            case "small":
-             price = 600;
+             price = 500;
              console.log(price);
            default:
              console.log("error"); 
@@ -163,15 +169,21 @@ $(document).ready(function () {
             case "0":
               crust_price = 0;
             break;
-            case "Crispy":
-              crust_price = 200;
+            case "thin-crust":
+              crust_price = 700;
             break;
-            case "Stuffed":
-              crust_price = 150;
+            case "thick-crust":
+              crust_price = 600;
             break;
-            case "Gluten-free":
-              crust_price = 180;
+            case "deep-crust":
+              crust_price = 500;
             break;
+            case "stuffed-crust":
+              crust_price = 400;
+              break;
+              case "cheese-filled-crust":
+              crust_price = 300;
+              break;
             default:
               console.log("No price"); 
           }
