@@ -206,19 +206,19 @@ $(document).ready(function(){
       $("button#checkout").hide();
       $("button.addPizza").hide();
       $("button.supply").slideDown(1000);
-      $("#addedprice").slideDown(1000);
+      $("#priceaddition").slideDown(1000);
       console.log("Your total bills is sh. "+checkoutTotal);
-      $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
+      $("#pizzadition").append("Your bill is sh. "+checkoutTotal);
     });
 
     // home delivery button
     $("button.supply").click(function(){
-      $(".pizzatable").hide();
-      $(".choise h2").hide();
+      $(".eatable").hide();
+      $(".chosen h2").hide();
       $(".take").slideDown(1000);
-      $("#addedprice").hide();
+      $("#priceaddition").hide();
       $("button.supply").hide();
-      $("#pizzatotal").hide();
+      $("#pizzadition").hide();
       let deliceryamount= checkoutTotal+150;
       console.log("You will pay sh. "+deliceryamount+" on delivery");
       $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
@@ -228,7 +228,7 @@ $(document).ready(function(){
     $("button#final-order").click(function(event){
       event.preventDefault();
 
-      $("#pizzatotal").hide();
+      $("#pizzadition").hide();
       $(".take").hide();
       $("button#final-order").hide();
       let deliceryamount= checkoutTotal+150;
