@@ -112,12 +112,12 @@ body{
   }
   
   h5 {
-    letter-spacing: 3px;
+    letter-spacing: 5px;
   }
  
   
   #head{
-    padding-top: 10%;
+    padding-top: 20%;
   }
   nav .navbar{
     width: 99%;
@@ -137,7 +137,7 @@ body{
   
   
   .text h5{
-    font-size: 25px;
+    font-size: 34px;
     padding: 30px;
   }
   .button{
@@ -188,7 +188,7 @@ body{
     font-size: 20px;
     color: white;
   }
-  .chosen h2{
+  .build h2{
     color:blue;
     text-align: left;
   }
@@ -206,7 +206,7 @@ body{
   #call h2{
     text-align: left;
   }
-  .footer{
+  .finishing{
     padding-top: 5%;
   }
   #priceaddition{
