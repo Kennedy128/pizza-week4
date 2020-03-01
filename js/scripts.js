@@ -135,7 +135,7 @@ $(document).ready(function(){
     $("#pizza-toppings").html(ptopping.join(", "));
     $("#totals").html(total);
     
-// Add pizza button
+
     $("button.addPizza").click(function(){
       let pessname = $(".name option:selected").val();
       let pessize = $("#size option:selected").val();
@@ -192,7 +192,7 @@ $(document).ready(function(){
 
         totalCheckout = totalCheckout + total;
         console.log(totalCheckout);
-      // constractor function
+      
       var anotherOrder = new Buypizza(pessname, pessize, pesscrust,ptopping,total);
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+anotherOrder.names +'</td><td id="pizzasize">' + anotherOrder.sizes + '</td><td id="pizzacrust">'+anotherOrder.crusts + '</td><td id="pizzatopping">'+anotherOrder.topping+'</td><td id="totals">'+anotherOrder.total+'</td></tr>');
@@ -201,7 +201,7 @@ $(document).ready(function(){
       
 
     });
-    // Checkout button
+    
     $("button#checkout").click(function(){ 
       $("button#checkout").hide();
       $("button.addPizza").hide();
@@ -211,7 +211,7 @@ $(document).ready(function(){
       $("#pizzadition").append("Your bill is sh. "+totalCheckout);
     });
 
-    // home delivery button
+    
     $("button.supply").click(function(){
       $(".eatable").hide();
       $(".select h2").hide();
