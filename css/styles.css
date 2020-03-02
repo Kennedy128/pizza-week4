@@ -1,0 +1,263 @@
+body{
+    text-align: center;
+  }
+  
+  
+  
+  .pizza{
+    background-image: url(../image/bc.jpeg);
+    height: 500px;
+    background-size: cover;
+    font-size: 40px;
+    color: darkblue;
+    font-family: 'Dancing Script' ;
+  
+  
+  }
+  .col-md-3 img{
+  
+    margin: 20px;
+    width: 100%;
+  }
+  h1{
+    font-family: 'Tangerine' ;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .col-md-2 img{
+  
+    margin: 20px;
+    width: 100%;
+  }
+  h2{
+    color: darkred;
+  }
+  .toppings{
+    background-color: gray;
+  }
+  .crust{
+    background-color: limegreen;
+  }
+  .larges{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .mediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+    
+  }
+  .smalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  
+  
+  }
+  .extralarges{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .extrasmalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .extramediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .largesmalls{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .largemediums{
+    display: none;
+    font-family: 'Amaranth' ;
+    color: navy;
+  }
+  .mouse{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5vh;
+    border-radius:30px;
+    box-shadow: 0 0 20px #000;
+    animation: bounce 0.75 linear infinite;
+  
+  }
+  
+  
+  
+  html,body,header,
+  .landing {
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+    
+    
+  }
+  
+  
+  h1 {
+    letter-spacing: 8px;
+    color: orange;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px ;
+  }
+  
+  h5 {
+    letter-spacing: 5px;
+  }
+ 
+  
+  #head{
+    padding-top: 20%;
+  }
+  nav .navbar{
+    width: 99%;
+    padding-right: 0px;
+  }
+  .brand{
+    margin-right: 30%;
+    font-weight:800;
+  }
+  .navinside a{
+    
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+ 
+  
+  
+  .text h5{
+    font-size: 34px;
+    padding: 30px;
+  }
+  .button{
+    border-radius: 10px;
+  }
+ 
+  
+  .col-md-4{
+    border-radius: 10%;
+    padding: 10px;
+  }
+  #services{
+    min-height: 70vh;
+    align-items: center;
+  
+  }
+ 
+  
+  .d-flex{
+    display: flex !important;
+  }
+  
+  #types{
+    padding-top: 30px;
+  }
+
+  .platform{
+    background-color: grey;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+  }
+  .choise{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .supply{
+    display: none;
+  }
+  .take{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color: white;
+  }
+  .build h2{
+    color:blue;
+    text-align: left;
+  }
+  #makeorder{
+    color:yellow;
+    font-size: 25px;
+  }
+  
+  #call h2{
+    text-align: center;
+  }
+  #call{
+    color:red;
+  }
+  #call h2{
+    text-align: left;
+  }
+  .finishing{
+    padding-top: 5%;
+  }
+  #priceaddition{
+    display: none;
+  }
+  #lasttext{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+  }
+  #feedback{
+    text-align: center;
+    color: aliceblue;
+  }
+  #news{
+    
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #ffa500;
+  }
+  @media only screen and (max-width: 485px){
+    .flex-xs-column {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .section {
+      padding-top: 30px;
+  }
+  
+ 
+  body,
+  header,
+  .landing {
+    height: 90vh;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .text h5{
+    font-size: 20px;
+    padding: 20px;
+  }
+  #starting{
+    padding-top: 30%;
+  }
+  .col-md-3{
+    padding-left: 20%;
+  }
+}
