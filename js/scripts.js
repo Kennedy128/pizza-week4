@@ -120,7 +120,7 @@ $(document).ready(function(){
     }
     else{
       $("button.go on").hide();
-      $("#information").hide();
+      $("#message").hide();
       $("div.choise").slideDown(1000);
     }
 
@@ -202,8 +202,8 @@ $(document).ready(function(){
 
     });
     
-    $("button#checkout").click(function(){ 
-      $("button#checkout").hide();
+    $("button#lasttouches").click(function(){ 
+      $("button#lasttouches").hide();
       $("button.addPizza").hide();
       $("button.supply").slideDown(1000);
       $("#priceaddition").slideDown(1000);
