@@ -235,7 +235,7 @@ body{
       flex-direction: column;
     }
   }
-  @media only screen and (max-width: 767px){
+  @media only screen and (max-width: 230px){
     .section {
       padding-top: 20px;
   }
