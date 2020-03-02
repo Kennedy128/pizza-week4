@@ -6,7 +6,7 @@ body{
   
   .pizza{
     background-image: url(../image/bc.jpeg);
-    height: 500px;
+    height: 800px;
     background-size: cover;
     font-size: 40px;
     color: darkblue;
@@ -90,6 +90,9 @@ body{
     box-shadow: 0 0 20px #000;
     animation: bounce 0.75 linear infinite;
   
+  }
+  .producer{
+    font-size: 5px;
   }
   
   
