@@ -244,7 +244,7 @@ body{
   body,
   header,
   .landing {
-    height: 90vh;
+    height: 50vh;
   }
   h1 {
     font-weight: bold;
