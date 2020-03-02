@@ -195,7 +195,7 @@ $(document).ready(function(){
       
       var anotherOrder = new Buypizza(pessname, pessize, pesscrust,ptopping,total);
 
-      $("#ordersmade").append('<tr><td id="pizzaname">'+anotherOrder.names +'</td><td id="pizzasize">' + anotherOrder.sizes + '</td><td id="pizzacrust">'+anotherOrder.crusts + '</td><td id="pizzatopping">'+anotherOrder.topping+'</td><td id="totals">'+anotherOrder.total+'</td></tr>');
+      $("#ordersmade").append('<tr><td id="pizza-gettingnames">'+anotherOrder.names +'</td><td id="pizza-gettingsizes">' + anotherOrder.sizes + '</td><td id="pizzacrust">'+anotherOrder.crusts + '</td><td id="pizza-gettingtoppings">'+anotherOrder.topping+'</td><td id="totals">'+anotherOrder.total+'</td></tr>');
       console.log(anotherOrder);
       
       
@@ -239,9 +239,9 @@ $(document).ready(function(){
 
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
   
-        $("#lasttext").append(people+", We have recieved your order and it will be delivered to you at "+place+ ". Prepare sh. "+tangibleamount);
+        $("#lasttext").append(people+", We have recieved your order and it will be delivered to you at "+place+ ".be Prepared with sh. "+tangibleamount);
         $("#spendingtotal").hide();
-        $("#lasttext").slideDown(1200);
+        $("#lasttext").slideDown(1000);
       }
       else {
         alert("make sure you fill in your information for delivery!");
