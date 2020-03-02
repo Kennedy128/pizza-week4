@@ -8,7 +8,7 @@ body{
     background-image: url(../image/bc.jpeg);
     height: 500px;
     background-size: cover;
-    font-size: 20px;
+    font-size: 40px;
     color: darkblue;
     font-family: 'Dancing Script' ;
   
@@ -230,12 +230,12 @@ body{
     padding-left: 5%;
     color: #ffa500;
   }
-  @media only screen and (max-width: 230px){
+  @media only screen and (max-width: 100px){
     .flex-xs-column {
       flex-direction: column;
     }
   }
-  @media only screen and (max-width: 230px){
+  @media only screen and (max-width: 100px){
     .section {
       padding-top: 5px;
   }
