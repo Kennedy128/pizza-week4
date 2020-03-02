@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 });
 
-var cost , crust_cost, topping_cost ;
+var cost , crust_price, topping_cost ;
 let total = 0;
 function Buypizza( names,sizes,crusts,toppings, total ){
   this.names = names;
@@ -119,7 +119,7 @@ $(document).ready(function(){
       alert("Please choose pizza size and corresponding crust"); 
     }
     else{
-      $("button.proceed").hide();
+      $("button.go on").hide();
       $("#information").hide();
       $("div.choise").slideDown(1000);
     }
