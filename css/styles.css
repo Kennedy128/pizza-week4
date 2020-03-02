@@ -230,14 +230,14 @@ body{
     padding-left: 5%;
     color: #ffa500;
   }
-  @media only screen and (max-width: 485px){
+  @media only screen and (max-width: 230px){
     .flex-xs-column {
       flex-direction: column;
     }
   }
   @media only screen and (max-width: 767px){
     .section {
-      padding-top: 30px;
+      padding-top: 20px;
   }
   
  
